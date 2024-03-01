@@ -131,6 +131,7 @@ nav ul li a:hover::after {
 .header-img img {
   width: 100%;
   border-radius: 50px;
+  padding-top: 8rem;
 }
 
 @media (max-width: 650px) {
