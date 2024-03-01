@@ -346,19 +346,20 @@ nav ul li a:hover::after {
   margin-bottom: 20px;
 }
 .layer a {
-  margin-top: 20px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  text-align: center;
 }
 .work:hover {
   transform: scale(1.1);
+}
+.iconm{
+ color: black;
+ font-size: 20px;
 }
 .work:hover .layer {
   height: 100%;
